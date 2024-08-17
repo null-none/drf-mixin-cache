@@ -1,6 +1,6 @@
 # drf-mixin-cache
 
-Cache provides easy to use, powerful and flexible cache framework for django-rest-framwork apps.
+Easy to use cache framework for django-rest-framwork apps.
 
 
 # Installation
@@ -18,7 +18,7 @@ INSTALLED_APPS = (
 )
 ```
 
-You must execute autodiscover to load your serializers. To do this change your `urls.py` adding the following code (sunch as Django admin):
+You must execute autodiscover to load your serializers. To do this change your `urls.py` adding the following code:
 
 ```python
 from drf_mixin_cache.registry import cache_registry
@@ -52,7 +52,7 @@ cache_registry.register(UserSerializer)
 
 ## Using cache backend different of the default
 
-If you need use a cache backend different of the default you can specify it on the `RF_CACHE_BACKEND`.
+If you need use a cache backend different of the default you can specify it on the `REST_FRAMEWORK_CACHE`.
 
 To do this edit your `settings.py` like this:
 
