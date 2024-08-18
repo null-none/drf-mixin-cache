@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="rdrf-mixin-cache",
+    name="drf-mixin-cache",
     description="Easy to use cache framework for django-rest-framwork apps",
     keywords="drf, django, rest, framework, cache",
     url="https://github.com/null-none/drf-mixin-cache",
